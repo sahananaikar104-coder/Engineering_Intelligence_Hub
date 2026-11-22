@@ -974,65 +974,13 @@ export const DashboardPage: React.FC<DashboardPageProps> = ({
           </div>
         )}
       </div>
-      <span key={lang} className="text-[11px] text-slate-400 bg-slate-800 px-2 py-0.5 rounded">
-        {lang}: {lines} lines
-      </span>
-                          ))}
+
+      <RepoConnectorModal
+        isOpen={isConnectModalOpen}
+        onClose={() => setIsConnectModalOpen(false)}
+        onConnect={onConnectRepo}
+        isLoading={isLoading}
+      />
     </div>
-                      </div >
-                    )}
-                  </div >
-
-  <div className="pt-3 border-t border-slate-800 flex items-center justify-between gap-2">
-    <button
-      onClick={(e) => {
-        e.stopPropagation();
-        onSelectRepo(repo);
-        navigate('/explorer');
-      }}
-      className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-cyan-400 py-1"
-    >
-      <FolderTree className="w-3.5 h-3.5" />
-      <span>Explorer</span>
-    </button>
-
-    <button
-      onClick={(e) => {
-        e.stopPropagation();
-        onSelectRepo(repo);
-        navigate('/chat');
-      }}
-      className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-cyan-400 py-1"
-    >
-      <MessageSquareCode className="w-3.5 h-3.5" />
-      <span>AI Chat</span>
-    </button>
-
-    <button
-      onClick={(e) => {
-        e.stopPropagation();
-        onSelectRepo(repo);
-        navigate('/tasks');
-      }}
-      className="flex items-center gap-1.5 text-xs font-semibold text-cyan-400 hover:text-cyan-300 py-1"
-    >
-      <Bot className="w-3.5 h-3.5" />
-      <span>New Task</span>
-    </button>
-  </div>
-                </div >
-              );
-            })}
-          </div >
-        )}
-      </div >
-
-  <RepoConnectorModal
-    isOpen={isConnectModalOpen}
-    onClose={() => setIsConnectModalOpen(false)}
-    onConnect={onConnectRepo}
-    isLoading={isLoading}
-  />
-    </div >
   );
 };

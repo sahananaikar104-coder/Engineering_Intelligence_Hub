@@ -113,3 +113,22 @@ npm run build
 - [RAG & Code Intelligence Pipeline](docs/RAG_PIPELINE.md)
 - [Autonomous Agents & State Machine](docs/AGENTS.md)
 - [Research Evaluation & Benchmarks](docs/RESEARCH_EVALUATION.md)
+
+---
+
+## 📄 Academic Major Project Report
+
+The complete, submission-ready academic major project report (103 pages) for the **Department of Artificial Intelligence and Machine Learning, Basaveshwar Engineering College, Bagalkote** (Course: `22UAI706P`, Academic Year 2026-27) is available directly in this repository:
+- **PDF Report**: [Final_Project_Report.pdf](Final_Project_Report.pdf) (Submission-Ready)
+- **Word Source Document**: [Final_Project_Report.docx](Final_Project_Report.docx) (Editable Source)
+
+### Project Team (AIML Dept, BEC Bagalkote)
+- **Sahana R Naikar** (`2BA23AI038`) – Multi-Agent Systems Architect
+- **Chinmayi S Mullur** (`2BA23AI014`) – Backend Core & AST Parsing Lead
+- **Ranjita M Julpi** (`2BA23AI037`) – Vector RAG & Retrieval Lead
+- **Sneha S Patil** (`2BA23AI053`) – Frontend UI & Quality Lead
+
+*Project Guide: Dr. Vishwanath Kagawade, Assistant Professor, Dept of AIML*  
+*Project Co-ordinator: Prof. J. D. Kallaganiger, Dept of AIML*  
+*Head of Department: Dr. B. M. Reshmi, Dept of AIML*
+
